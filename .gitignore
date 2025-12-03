@@ -1,0 +1,16 @@
+# Dataset GTSRB
+data/gtsrb/
+data/*.zip
+data/*.csv
+
+# Trained Models
+models/*.pth
+models/*.pt
+models/*.h5
+
+/venv
+/.venv
+__pycache__/
+*.pyc
+
+.DS_Store
