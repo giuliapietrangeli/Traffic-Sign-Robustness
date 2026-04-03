@@ -2,6 +2,18 @@
 
 This project implements a robust traffic sign classification model using the GTSRB dataset and synthetic weather augmentations (Rain, Fog, Motion Blur).
 
+## Key Results
+
+The "Robust" model demonstrates a significant breakthrough in performance stability compared to the baseline trained on clean data:
+
+| Condition | Baseline Accuracy | Robust Accuracy | Improvement |
+|-----------|-------------------|-----------------|-------------|
+| Clean     | 95.57%            | 97.19%          | +1.62%      |
+| Rain      | 50.88%            | 91.79%          | +40.91%     |
+| Fog       | 47.09%            | 83.71%          | +36.62%     |
+| Blur      | 91.19%            | 94.96%          | +3.77%      |
+
+
 ## Setup
 Ensure you have the dependencies installed:
 ```bash
