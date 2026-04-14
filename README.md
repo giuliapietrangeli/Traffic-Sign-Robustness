@@ -1,4 +1,4 @@
-# Weather-Robust Traffic Sign Recognition
+# Weather-Robust Traffic Sign Recognition 
 
 This repository implements a robust deep learning pipeline for traffic sign classification, specifically designed to maintain high performance under adverse weather conditions. By leveraging the German Traffic Sign Recognition Benchmark (GTSRB) and advanced synthetic data augmentation, this project addresses the reliability gap in autonomous driving perception systems.
 
